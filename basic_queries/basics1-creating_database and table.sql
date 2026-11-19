@@ -13,7 +13,6 @@ CREATE TABLE users(
     date_of_birth DATE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
 select * from users;
 
 -- drop database ==> delete entire database
@@ -39,3 +38,5 @@ ALTER TABLE users DROP COLUMN is_active;
 ALTER TABLE users MODIFY COLUMN email VARCHAR(100) AFTER id;
 
 ALTER TABLE users MODIFY COLUMN date_of_birth DATE FIRST;
+
+
