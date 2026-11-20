@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS startersql;
-USE startersql;
+CREATE DATABASE IF NOT EXISTS startersql_1;
+USE startersql_1;
 
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
